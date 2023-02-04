@@ -3,7 +3,7 @@ import Nav from "./components/Nav";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-400">
       <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
