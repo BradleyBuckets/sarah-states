@@ -2,7 +2,7 @@ import { SiInstagram, SiTiktok, SiYoutube, SiApple, SiSpotify, SiPandora } from 
 
 let Footer = () => {
     return (
-      <nav className="bg-neutral-900 p-6 flex justify-center items-center">
+      <nav className=" bg-gradient-to-br from-primary-gray-dark to-primary-gray-light p-6 flex justify-center items-center">
         <div className="flex items-center gap-4">
           <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
             <SiInstagram />
