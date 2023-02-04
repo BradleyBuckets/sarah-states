@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <h1 className="text-3xl font-bold underline text-cyan-500">
         Hello world!
       </h1>
+      <Footer />
     </div>
   );
 }

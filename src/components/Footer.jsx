@@ -1,0 +1,30 @@
+import { SiInstagram, SiTiktok, SiYoutube, SiApple, SiSpotify, SiPandora } from 'react-icons/si';
+
+let Footer = () => {
+    return (
+      <nav className="bg-neutral-900 p-6 flex justify-center items-center">
+        <div className="flex items-center gap-4">
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiInstagram />
+          </a>
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiTiktok />
+          </a>
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiYoutube />
+          </a>
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiApple />
+          </a>
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiPandora />
+          </a>
+          <a href="#home" className="text-white text-2xl mx-3 bg-white p-2 rounded-md bg-opacity-20">
+            <SiSpotify />
+          </a>
+        </div>
+      </nav>
+    );
+  };
+
+export default Footer
