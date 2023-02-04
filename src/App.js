@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 function App() {
   return (
     <div className="App">
-      <Nav></Nav>
+      <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
