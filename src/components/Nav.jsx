@@ -6,23 +6,23 @@ let Nav = () => {
         <a href="#home" className="text-neutral-50 font-bold text-2xl">
           Sarah States
         </a>
-        <div className="flex items-center">
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+        <div className="flex items-center gap-4">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiInstagram />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiTiktok />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiYoutube />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiApple />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiPandora />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10">
             <SiSpotify />
           </a>
         </div>
