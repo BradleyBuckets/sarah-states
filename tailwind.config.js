@@ -21,6 +21,7 @@ module.exports = {
         "primary-gray-dark": "#2E2C36",
         "primary-gray-light": "#423C51",
         "secondary-purple": "#7E5BA7",
+        "secondary-pink": "#B888AE",
       },
     },
   },
