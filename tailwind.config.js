@@ -20,6 +20,7 @@ module.exports = {
         "primary-pink": "#8D5E82",
         "primary-gray-dark": "#2E2C36",
         "primary-gray-light": "#423C51",
+        "secondary-purple": "#7E5BA7",
       },
     },
   },
