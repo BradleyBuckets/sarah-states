@@ -11,14 +11,14 @@ let Email = () => {
         <p className="text-neutral-50 font-bold drop-shadow-lg w-72 text-center">
             Sed quis nibh cras pulvinar mattis nunc libero amet
         </p>
-        <div className=" bg-gradient-to-br from-primary-gray-dark to-primary-gray-light w-80 h-60 rounded-lg">
-            <div className=" w-64 h-10 text-neutral-50 font-bold bg-neutral-50 bg-opacity-20 rounded-lg flex items-center">
+        <div className=" bg-gradient-to-br from-primary-gray-dark to-primary-gray-light w-80 h-60 rounded-lg flex flex-col items-center justify-center gap-5">
+            <div className=" w-64 h-10 text-neutral-50 font-bold bg-neutral-50 opacity-60 bg-opacity-20 rounded-lg flex items-center p-4">
                 Name
             </div>
-            <div className=" w-40 h-10 text-neutral-50 font-bold bg-neutral-50 bg-opacity-20 rounded-lg flex items-center">
+            <div className=" w-64 h-10 text-neutral-50 font-bold bg-neutral-50 opacity-60 bg-opacity-20 rounded-lg flex items-center p-4">
                 Email
             </div>
-            <div className=" w-44 h-10 text-neutral-50 font-bold bg-gradient-to-br to-primary-purple from-secondary-pink rounded-lg flex justify-center items-center">
+            <div className=" w-64 h-10 text-neutral-50 font-bold bg-gradient-to-r to-primary-purple from-secondary-pink rounded-lg flex justify-center items-center">
                 Subscribe
             </div>
         </div>
