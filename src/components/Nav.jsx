@@ -7,22 +7,22 @@ let Nav = () => {
           Sarah States
         </a>
         <div className="flex items-center">
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiInstagram />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiTiktok />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiYoutube />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiApple />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiPandora />
           </a>
-          <a href="#home" className="text-neutral-50 mx-3 bg-white p-2 rounded-md bg-opacity-20">
+          <a href="#home" className="text-neutral-50 mx-3 bg-neutral-50 p-2 rounded-md bg-opacity-20">
             <SiSpotify />
           </a>
         </div>
