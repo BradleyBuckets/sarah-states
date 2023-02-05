@@ -21,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <h1 className="text-3xl font-bold underline text-cyan-500">
+      <h1 className="text-3xl font-bold text-cyan-500 underline">
         Hello world!
       </h1>
       <Email />
