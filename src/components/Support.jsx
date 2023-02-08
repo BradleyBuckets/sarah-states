@@ -8,7 +8,7 @@ let Support = () => {
         <div className=" text-neutral-50 flex justify-center items-center text-8xl m-2 drop-shadow-xl">
             Support my music!
         </div>
-        <div className=" w-36 h-12 flex justify-center items-center text-neutral-50 rounded-xl bg-neutral-400 border border-neutral-50 hover:bg-opacity-80 hover:cursor-pointer m-2 gap-2 drop-shadow-xl">
+        <div className=" w-36 h-12 flex justify-center items-center text-neutral-50 bg-neutral-50 p-2 rounded-lg bg-opacity-10 gap-2 drop-shadow-xl border border-neutral-50 hover:bg-opacity-20 hover:cursor-pointer">
             <div>Purchase</div>
             <div>
                 <BsChevronRight />
