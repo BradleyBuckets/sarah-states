@@ -29,8 +29,8 @@ function App() {
         Hello world!
       </h1>
       <Hero />
-      <MusicCard2 />
       <MusicCard />
+      <MusicCard2 />
       <Support />
       <Email />
       <Footer />
