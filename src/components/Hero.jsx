@@ -1,5 +1,3 @@
-import img from "../resources/cil-close-up.png"
-
 
 let Hero = () => {
     return (

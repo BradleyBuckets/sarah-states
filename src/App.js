@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
