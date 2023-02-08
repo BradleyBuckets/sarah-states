@@ -6,7 +6,7 @@ import MusicCard from "./components/MusicCard";
 
 function App() {
   return (
-    <div className="App bg-slate-400">
+    <div className="App bg-slate-400 ">
       <Nav />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
