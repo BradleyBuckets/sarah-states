@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Email from "./components/Email";
+import MusicCard from "./components/MusicCard";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <h1 className="text-3xl font-bold text-cyan-500 underline">
         Hello world!
       </h1>
+      <MusicCard />
       <Email />
       <Footer />
     </div>
