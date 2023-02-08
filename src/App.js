@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Footer from "./components/Footer";
 import Email from "./components/Email";
 import MusicCard from "./components/MusicCard";
+import MusicCard2 from "./components/MusicCard2";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <h1 className="text-3xl font-bold text-cyan-500 underline">
         Hello world!
       </h1>
+      <MusicCard2 />
       <MusicCard />
       <Email />
       <Footer />
