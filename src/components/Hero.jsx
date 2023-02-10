@@ -14,7 +14,7 @@ let Hero = () => {
             Lorem ipsum dolor sit amet consectetur. Egestas volutpat commodo nec purus tortor sagittis aliquet justo. Arcu lectus nisl enim amet id Lobortis magna dui justo habitant.
         </p> */}
         <p className="text-neutral-50 drop-shadow-xl w-10/12 sm:w-3/4 lg:w-1/2 text-center sm:text-start">
-            With a voice that touches the soul, she creates music that resonates with our deepest emotions. Her powerful lyrics inspire us to explore further the human experience.
+            With a voice that touches the soul, she creates music that resonates with our deepest emotions. Her powerful lyrics inspire us to explore deeper the human experience.
         </p>
      </div>
     );
