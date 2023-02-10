@@ -10,8 +10,11 @@ let Hero = () => {
         <div className=" text-neutral-50 flex justify-center items-center text-7xl md:text-8xl drop-shadow-xl text-center sm:text-start">
             Sarah States
         </div>
-        <p className="text-neutral-50 drop-shadow-xl w-8/12 sm:w-3/4 lg:w-1/2 text-center sm:text-start">
+        {/* <p className="text-neutral-50 drop-shadow-xl w-8/12 sm:w-3/4 lg:w-1/2 text-center sm:text-start">
             Lorem ipsum dolor sit amet consectetur. Egestas volutpat commodo nec purus tortor sagittis aliquet justo. Arcu lectus nisl enim amet id Lobortis magna dui justo habitant.
+        </p> */}
+        <p className="text-neutral-50 drop-shadow-xl w-10/12 sm:w-3/4 lg:w-1/2 text-center sm:text-start">
+            With a voice that touches the soul, she creates music that resonates with our deepest emotions. Her powerful lyrics inspire us to explore further the human experience.
         </p>
      </div>
     );
