@@ -1,5 +1,6 @@
 import img from "../resources/where-ive-been.png"
 import audio from "../resources/music.mp3"
+import Audio from './Audio'
 
 
 let MusicCard = () => {
@@ -28,7 +29,7 @@ let MusicCard = () => {
                     <p className="text-neutral-50 opacity-70 text-sm mx-4 my-1">Song title here</p>
                     <audio src={audio} controls className="w-full opacity-50"></audio>
                 </div>
-                
+                <Audio songTitle="Testing this" source={audio} />
             </div>
         </div>
      </div>
