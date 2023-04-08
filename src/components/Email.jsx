@@ -9,21 +9,9 @@ let Email = () => {
     let handleSubmit = (e) => {
         e.preventDefault();
         let emailListData = { name, email }
-        console.log(emailListData)
-        console.log(JSON.stringify(emailListData))
-
-
-        // const scriptUrl = "https://script.google.com/macros/s/AKfycbxGuSs9dJYjjWGip_smec3bHwfpU9HsRRf6araSq2ciko-YC8rj0iLNcd5uGuYv3Vlx/exec"
-
-        // fetch(scriptUrl, {method: 'POST', body: JSON.stringify(emailListData)})
-        // .then(() => {
-        //     console.log("SUCCESSFULLY SUBMITTED")
-        // }).catch(err => console.log(err))
-        // fetch(scriptUrl, {method: 'POST', body: emailListData})
-        // .then(() => {
-        //     console.log("SUCCESSFULLY SUBMITTED")
-        // }).catch(err => console.log(err))
-}
+        let jsonEmail = JSON.stringify(emailListData)
+        console.log(emailListData, jsonEmail)
+    }
 
     return (
      <div className=" h-screen w-screen bg-gradient-to-br from-primary-purple to-primary-pink flex flex-col items-center justify-center gap-10 pb-10">
