@@ -32,7 +32,7 @@ let Email = () => {
             Never miss a beat and be the first to know about updates!
         </p>}
         {submitted && <p className="text-neutral-50 font-bold drop-shadow-xl w-72 text-center">
-            Thank you for your interest, stay tuned for more information!
+            Thank you for signing up, stay tuned for more information!
         </p>}
         <form className=" bg-gradient-to-br from-primary-gray-dark to-primary-gray-light w-80 h-60 rounded-lg flex flex-col items-center justify-center gap-5 drop-shadow-xl"
             onSubmit={handleSubmit}
