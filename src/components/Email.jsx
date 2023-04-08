@@ -1,16 +1,25 @@
 import { useState } from "react";
 import img from "../resources/cil-close-up.png"
+import PocketBase from 'pocketbase';
+
+const pb = new PocketBase('https://square-potato.pockethost.io');
 
 
 let Email = () => {
     let [name, setName] = useState("")
     let [email, setEmail] = useState("")
+    let [isPending, setIsPending] = useState(false)
+    let [submitted, setSubmitted] = useState(false)
 
-    let handleSubmit = (e) => {
+    let handleSubmit = async (e) => {
         e.preventDefault();
+        setIsPending(true)
         let emailListData = { name, email }
-        let jsonEmail = JSON.stringify(emailListData)
-        console.log(emailListData, jsonEmail)
+        await pb.collection('sarahhh_states_emails').create(emailListData);
+        setName('')
+        setEmail('')
+        setIsPending(false)
+        setSubmitted(true)
     }
 
     return (
@@ -19,9 +28,12 @@ let Email = () => {
         <h2 className=" text-neutral-50 font-extrabold text-4xl drop-shadow-xl">
             Newsletter
         </h2>
-        <p className="text-neutral-50 font-bold drop-shadow-xl w-72 text-center">
+        {!submitted && <p className="text-neutral-50 font-bold drop-shadow-xl w-72 text-center">
             Never miss a beat and be the first to know about updates!
-        </p>
+        </p>}
+        {submitted && <p className="text-neutral-50 font-bold drop-shadow-xl w-72 text-center">
+            Thank you for your interest, stay tuned for more information!
+        </p>}
         <form className=" bg-gradient-to-br from-primary-gray-dark to-primary-gray-light w-80 h-60 rounded-lg flex flex-col items-center justify-center gap-5 drop-shadow-xl"
             onSubmit={handleSubmit}
         >
@@ -43,9 +55,12 @@ let Email = () => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
-            <button className=" w-64 h-10 text-neutral-50 font-bold bg-gradient-to-r to-primary-purple from-secondary-pink rounded-lg flex justify-center items-center">
+            {!isPending && <button className=" w-64 h-10 text-neutral-50 font-bold bg-gradient-to-r to-primary-purple from-secondary-pink rounded-lg flex justify-center items-center">
                 Subscribe
-            </button>
+            </button>}
+            {isPending && <button className=" w-64 h-10 text-neutral-50 font-bold bg-gradient-to-r to-primary-purple from-secondary-pink rounded-lg flex justify-center items-center">
+                Sending...
+            </button>}
 
         </form>
      </div>
