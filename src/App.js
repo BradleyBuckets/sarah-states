@@ -5,6 +5,7 @@ import Email from "./components/Email";
 import Support from "./components/Support";
 import MusicCard from "./components/MusicCard";
 import MusicCard2 from "./components/MusicCard2";
+import Privacy from "./components/Privacy";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <MusicCard2 />
       <Support />
       <Email />
+      <Footer />
+      <Nav />
+      <Privacy />
       <Footer />
     </div>
   );
