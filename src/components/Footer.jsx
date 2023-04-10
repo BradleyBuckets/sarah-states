@@ -1,5 +1,6 @@
 import { SiInstagram, SiTiktok, SiYoutube, SiApple, SiSpotify, SiPandora } from 'react-icons/si';
 import { RxDividerVertical} from 'react-icons/rx';
+import { Link } from 'react-router-dom';
 
 
 let Footer = () => {
@@ -8,7 +9,7 @@ let Footer = () => {
         <div className=' pt-6 flex justify-center items-center text-center'>
           <a href="https://google.com" className=' text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Terms of Service</a>
           <div className='text-neutral-50'><RxDividerVertical/></div>
-          <a href="https://google.com" className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Privacy Policy</a>
+          <Link to={'privacy'} className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Privacy Policy</Link>
           <div className='text-neutral-50'><RxDividerVertical/></div>
           <a href="https://google.com" className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Contact Us</a>
         </div>

@@ -2,6 +2,8 @@ import { SiInstagram, SiTiktok, SiYoutube, SiApple, SiSpotify, SiPandora } from 
 import { HiMenu } from 'react-icons/hi';
 import { useState } from 'react';
 import Dropdown from './Dropdown'
+import { Link } from "react-router-dom";
+
 
 let Nav = () => {
 
@@ -9,9 +11,7 @@ let Nav = () => {
 
     return (
       <nav className="sticky top-0 z-10 bg-neutral-700 p-3 flex justify-between items-center bg-opacity-20 backdrop-blur-md">
-        <a href="/" className="text-neutral-50 font-bold text-2xl">
-          Sarah States
-        </a>
+        <Link to={"/"} className='text-neutral-50 font-bold text-2xl'>Sarah States</Link>
         <div className="flex items-center gap-4">
           <div href=" " className="text-neutral-50 bg-neutral-50 p-2 rounded-md bg-opacity-10 block text-2xl sm:hidden hover:bg-opacity-20 hover:cursor-pointer ease-in-out duration-200" rel="noreferrer" onClick={() => setOpen(!open)}>
             <HiMenu />
