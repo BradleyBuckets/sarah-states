@@ -8,6 +8,7 @@ import MusicCard2 from "./components/MusicCard2";
 import Privacy from "./components/Privacy";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
               <Privacy />
             </Route>
             <Route path={"*"}>
-              <Privacy />
+              <NotFound />
             </Route>
           </Switch>
         </div>
