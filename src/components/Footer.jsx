@@ -7,11 +7,11 @@ let Footer = () => {
     return (
       <div className='bg-gradient-to-br from-primary-gray-dark to-primary-gray-light flex flex-col justify-center items-center'>
         <div className=' pt-6 flex justify-center items-center text-center'>
-          <a href="https://google.com" className=' text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Terms of Service</a>
+          <Link to={'/terms'} className=' text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Terms of Service</Link>
           <div className='text-neutral-50'><RxDividerVertical/></div>
-          <Link to={'privacy'} className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Privacy Policy</Link>
+          <Link to={'/privacy'} className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Privacy Policy</Link>
           <div className='text-neutral-50'><RxDividerVertical/></div>
-          <a href="https://google.com" className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Contact Us</a>
+          <Link to={'/contact'} className='text-neutral-50 text-sm sm:text-base font-bold drop-shadow-xl p-1 mb-1 hover:cursor-pointer hover:underline'>Contact Us</Link>
         </div>
         <nav className="p-6 flex justify-center items-center">
           <div className="flex items-center gap-1 sm:gap-2 md:gap-4">

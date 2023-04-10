@@ -2,7 +2,7 @@ const Privacy = () => {
     return ( 
         <div className=" bg-gradient-to-br from-primary-purple to-primary-pink flex justify-center items-center" >
             <div className=" max-w-2xl w-9/12 sm:w-[600px] py-8">
-                <h2 className="text-neutral-50 font-bold drop-shadow-xl mb-4 text-xl">Privacy Policy</h2>
+                <h2 className="text-neutral-50 font-bold drop-shadow-xl mb-4 text-2xl">Privacy Policy</h2>
                 <p className="text-neutral-50 drop-shadow-xl pb-8">Guarding the privacy and safety of your data is very important to us. This Policy outlines what we collect about you, and how we use, share, and manage this data. It also outlines the choices you have about this data. Please read it carefully.</p>
                 <h3 className="text-neutral-50 font-bold drop-shadow-xl pb-4 text-lg">What do we do with your information?</h3>
                 <p className="text-neutral-50 drop-shadow-xl pb-8">When you purchase something from our store we collect the personal information you give us such as your name and email address. When you visit our website, we automatically receive your computer's internet protocol (IP ADDRESS) with information associated with your browser and operating system. Email marketing is permission based, you sign up to receive emails about our music, new products, and other updates. We do not share this information or disclose your personal information unless required by law or if you violate our terms of service.</p>

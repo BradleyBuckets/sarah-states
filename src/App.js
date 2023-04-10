@@ -27,6 +27,15 @@ function App() {
             <Route path={"/privacy"}>
               <Privacy />
             </Route>
+            <Route path={"/contact"}>
+              <Privacy />
+            </Route>
+            <Route path={"/terms"}>
+              <Privacy />
+            </Route>
+            <Route path={"*"}>
+              <Privacy />
+            </Route>
           </Switch>
         </div>
         <Footer />
