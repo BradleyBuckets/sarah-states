@@ -9,6 +9,7 @@ import Privacy from "./components/Privacy";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./components/NotFound";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
               <Privacy />
             </Route>
             <Route path={"/contact"}>
-              <Privacy />
+              <Contact />
             </Route>
             <Route path={"/terms"}>
               <Privacy />
