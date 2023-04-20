@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import NotFound from "./components/NotFound";
 import Contact from "./components/Contact";
+import Terms from "./components/Terms";
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
               <Contact />
             </Route>
             <Route path={"/terms"}>
-              <Privacy />
+              <Terms />
             </Route>
             <Route path={"*"}>
               <NotFound />
